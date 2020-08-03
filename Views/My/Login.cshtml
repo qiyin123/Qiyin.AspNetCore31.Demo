@@ -1,0 +1,40 @@
+﻿
+@model Qiyin.AspNetCore31.Demo.Models.UserLoginArgs
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Login</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>DiaryItemAdd</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NickName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NickName)
+           
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PassWord)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PassWord)
+        </div>
+
+        <p>
+            <input type="submit" value="Login" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

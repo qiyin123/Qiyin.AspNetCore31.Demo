@@ -1,0 +1,46 @@
+2020-08-02 20:18:20,889 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-02 20:18:20,913 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-02 20:18:20,924 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-02 20:18:21,204 [10] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
+2020-08-02 20:19:04,593 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-02 20:19:04,608 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-02 20:19:04,614 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-02 20:19:04,753 [10] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
+2020-08-02 20:30:51,864 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-02 20:30:51,879 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-02 20:30:51,886 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-02 20:30:52,017 [4] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
+2020-08-02 20:52:50,667 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-02 20:52:50,691 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-02 20:52:50,698 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-02 20:52:50,820 [10] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
+2020-08-02 20:54:26,459 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-02 20:54:26,474 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-02 20:54:26,481 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-02 20:54:26,575 [4] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
+2020-08-02 20:58:37,559 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-02 20:58:37,576 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-02 20:58:37,585 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-02 20:58:37,710 [10] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
+2020-08-02 23:54:55,802 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-02 23:54:55,816 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-02 23:54:55,824 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-02 23:54:55,949 [4] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
+2020-08-02 23:54:58,651 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Qiyin.AspNetCore31.Demo.User.Service.IUserService' while attempting to activate 'Qiyin.AspNetCore31.Demo.Controllers.MyController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

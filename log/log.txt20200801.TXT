@@ -1,0 +1,4 @@
+2020-08-01 18:28:01,284 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-01 18:28:01,303 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-01 18:28:01,309 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\Ban\AspNetCore31\Qiyin.AspNetCore31.Demo\Qiyin.AspNetCore31.Demo
+2020-08-01 18:28:01,415 [9] WARN  Qiyin.AspNetCore31.Demo.Controllers.HomeController - This is HomeController-Index1...
